@@ -32,7 +32,8 @@
     'port' => '587'
   );
   */
-// riani tes push. deleted soon
+// riani tes push lagi
+
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
